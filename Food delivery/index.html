@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Foodie - Food Delivery</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo"> Foodie<span>.</span> </a>
+
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#deals">Deals</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart (3)</span>
+          </button>
+
+          <button class="profile-btn">
+            <i class="fa-solid fa-user"></i>
+          </button>
+
+          <button class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+
+      <section id="home" class="hero">
+        <div class="container hero-container">
+          <!-- Hero Text -->
+
+          <div class="hero-content">
+            <h1>
+              Good food,
+              <span>delivered</span> to you.
+            </h1>
+
+            <p>
+              Order your favorite food from the best restaurants near you and
+              get it delivered fast to your doorstep.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#" class="btn btn-primary">
+                Order Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+              <a href="#" class="btn btn-secondary"> Explore Menu </a>
+            </div>
+
+            <!-- Features -->
+
+            <div class="features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i
+                    ><img
+                      src="Food delivery/delivery.webp"
+                      alt="delivery-boy"
+                      class="flip-image"
+                  /></i>
+                </div>
+
+                <div>
+                  <h4>Fast Delivery</h4>
+                  <p>30-45 min</p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-medal"></i>
+                </div>
+
+                <div>
+                  <h4>Best Quality</h4>
+                  <p>100% fresh</p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div>
+                  <h4>Secure Payment</h4>
+                  <p>100% secure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image -->
+
+          <div class="hero-image-container">
+            <div class="yellow-shape"></div>
+
+            <div class="green-dot"></div>
+
+            <div class="leaf leaf-one"></div>
+            <div class="leaf leaf-two"></div>
+
+            <img
+              class="hero-burger"
+              src="Food delivery/Humburger.jpg"
+              alt="Delicious burger"
+            />
+
+            <!-- Happy Customers -->
+
+            <div class="customers">
+              <div class="customer-images">
+                <img src="Food delivery/customer1.jpg" alt="Customer" />
+
+                <img src="Food delivery/Customer2.jpg" alt="Customer" />
+
+                <img src="Food delivery/Customer3.jpg" alt="Customer" />
+              </div>
+
+              <div class="customer-text">
+                <strong>10K+</strong>
+                <span>Happy Customers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORIES -->
+
+      <section class="categories-section">
+        <div class="container">
+          <div class="section-heading">
+            <span>CHOOSE BY CATEGORY</span>
+
+            <h2>Popular Categories</h2>
+          </div>
+
+          <div class="categories-grid">
+            <!-- Pizza -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery\slice of pizza.jpg" alt="Pizza" />
+              </div>
+
+              <h3>Pizza</h3>
+
+              <p>12 Items</p>
+            </a>
+
+            <!-- Burger -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery/slice of humburger.jpg" alt="Burgers" />
+              </div>
+
+              <h3>Burgers</h3>
+
+              <p>15 Items</p>
+            </a>
+
+            <!-- Chicken -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery/slice of chicken.jpg" alt="Chicken" />
+              </div>
+
+              <h3>Chicken</h3>
+
+              <p>18 Items</p>
+            </a>
+
+            <!-- Sides -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery/frend-fries.jpg" alt="Fries" />
+              </div>
+
+              <h3>Sides</h3>
+
+              <p>10 Items</p>
+            </a>
+
+            <!-- Drinks -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery/drinks.webp" alt="Drinks" />
+              </div>
+
+              <h3>Drinks</h3>
+
+              <p>20 Items</p>
+            </a>
+
+            <!-- Desserts -->
+
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="Food delivery/ice cream.jpg" alt="Dessert" />
+              </div>
+
+              <h3>Desserts</h3>
+
+              <p>8 Items</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--  POPULAR FOODS  -->
+
+      <section id="menu" class="popular-section">
+        <div class="container">
+          <div class="section-heading">
+            <span>POPULAR NOW</span>
+
+            <h2>Popular Foods</h2>
+          </div>
+
+          <div class="food-grid">
+            <!-- FOOD 1 -->
+
+            <article class="food-card">
+              <div class="food-image">
+                <img src="Food delivery/Pizza.jpg" alt="Pepperoni Pizza" />
+
+                <button class="favorite">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+
+              <div class="food-info">
+                <h3>Pepperoni Pizza</h3>
+
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <span>4.6</span>
+                  <small>(230)</small>
+                </div>
+
+                <p>Classic pizza with pepperoni and mozzarella cheese.</p>
+
+                <div class="food-bottom">
+                  <strong>$12.99</strong>
+
+                  <button class="add-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- FOOD 2 -->
+
+            <article class="food-card">
+              <div class="food-image">
+                <img src="humburger.jpeg" alt="Cheese Burger" />
+
+                <button class="favorite">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+
+              <div class="food-info">
+                <h3>Cheese Burger</h3>
+
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <span>4.7</span>
+                  <small>(180)</small>
+                </div>
+
+                <p>
+                  Beef patty with cheese, lettuce, tomato and special sauce.
+                </p>
+
+                <div class="food-bottom">
+                  <strong>$8.99</strong>
+
+                  <button class="add-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- FOOD 3 -->
+
+            <article class="food-card">
+              <div class="food-image">
+                <img src="Food delivery/chicken.jpg" alt="Fried Chicken" />
+
+                <button class="favorite">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+
+              <div class="food-info">
+                <h3>Fried Chicken</h3>
+
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <span>4.8</span>
+                  <small>(210)</small>
+                </div>
+
+                <p>Crispy fried chicken with special seasoning.</p>
+
+                <div class="food-bottom">
+                  <strong>$9.99</strong>
+
+                  <button class="add-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <!-- FOOD 4 -->
+
+            <article class="food-card">
+              <div class="food-image">
+                <img src="Food delivery/pasta.jpg" alt="Creamy Pasta" />
+
+                <button class="favorite">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+
+              <div class="food-info">
+                <h3>Creamy Pasta</h3>
+
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <span>4.5</span>
+                  <small>(160)</small>
+                </div>
+
+                <p>Creamy white sauce pasta with mushrooms.</p>
+
+                <div class="food-bottom">
+                  <strong>$10.99</strong>
+
+                  <button class="add-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROMO -->
+
+      <section id="deals" class="promo-section">
+        <div class="container">
+          <div class="promo">
+            <div class="delivery-boy">
+              <i><img src="Food delivery/delivery.webp" alt="" /></i>
+            </div>
+
+            <div class="promo-content">
+              <h2>Hungry? We've got you covered!</h2>
+
+              <p>
+                Get 20% OFF on your first order. Use code:
+                <strong>FOODIE20</strong>
+              </p>
+            </div>
+
+            <a href="#" class="promo-btn">
+              Order Now
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- Brand -->
+
+        <div class="footer-brand">
+          <a href="#" class="logo"> Foodie<span>.</span> </a>
+
+          <p>
+            Good food, good mood.
+            <br />
+            We deliver happiness!
+          </p>
+
+          <div class="socials">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+
+          <a href="#">Home</a>
+          <a href="#">Menu</a>
+          <a href="#">Deals</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <!-- Customer Service -->
+
+        <div class="footer-column">
+          <h3>Customer Service</h3>
+
+          <a href="#">FAQs</a>
+          <a href="#">Shipping & Delivery</a>
+          <a href="#">Return Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-column contact-column">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +1 234 567 8900
+          </p>
+
+          <p>
+            <i class="fa-regular fa-envelope"></i>
+            support@foodie.com
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            123 Foodie Street,
+            <br />
+            New York, USA
+          </p>
+        </div>
+
+        <!-- Subscribe -->
+
+        <div class="footer-column subscribe">
+          <h3>Subscribe</h3>
+
+          <p>Get updates on deals and offers</p>
+
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email" />
+
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Foodie. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
